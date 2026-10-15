@@ -1,0 +1,110 @@
+/**
+ * ControlHub - Typography System
+ * Clean hierarchy, strict tabular numbers for data/metrics.
+ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-main);
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: 1.75rem; /* 28px */
+}
+
+h2 {
+  font-size: 1.375rem; /* 22px */
+}
+
+h3 {
+  font-size: 1.125rem; /* 18px */
+}
+
+h4 {
+  font-size: 1rem; /* 16px */
+}
+
+p {
+  color: var(--text-muted);
+  font-size: 0.9375rem; /* 15px */
+}
+
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+}
+
+.text-sm {
+  font-size: 0.84375rem; /* 13.5px */
+}
+
+.text-base {
+  font-size: 0.9375rem; /* 15px */
+}
+
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+}
+
+.text-xl {
+  font-size: 1.375rem; /* 22px */
+}
+
+.text-2xl {
+  font-size: 1.75rem; /* 28px */
+}
+
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.text-dim {
+  color: var(--text-dim);
+}
+
+.text-main {
+  color: var(--text-main);
+}
+
+.text-primary {
+  color: var(--accent-primary);
+}
+
+.text-success {
+  color: var(--accent-success);
+}
+
+.text-warning {
+  color: var(--accent-warning);
+}
+
+.text-danger {
+  color: var(--accent-danger);
+}
+
+/* Tabular numbers for financial and metric consistency */
+.tabular-nums,
+.stat-number,
+.metric-value,
+.finance-amount,
+.date-badge,
+.streak-badge {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
